@@ -27,3 +27,8 @@ build-stamp
 .pytest_cache/
 .mypy_cache/
 .benchmarks/
+# Shell redirection artifacts
+=[0-9]*
+>[0-9]*
+*.tmp
+*.log
